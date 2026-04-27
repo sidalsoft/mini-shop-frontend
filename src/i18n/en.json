@@ -1,0 +1,111 @@
+{
+  "appTitle": "Mini Shop",
+
+  "products": "Products",
+  "cart": "Cart",
+  "orders": "Orders",
+  "order": "Order",
+
+  "addToCart": "Add to cart",
+  "checkout": "Checkout",
+
+  "name": "Name",
+  "phone": "Phone",
+  "address": "Address",
+
+  "deliveryInfo": "Delivery Information",
+
+  "total": "Total",
+  "items": "Items",
+
+  "emptyCart": "Your cart is empty",
+  "emptyOrders": "No orders yet",
+
+  "back": "Back",
+  "backToShop": "Back to shop",
+  "logout": "Logout",
+
+  "search": "Search...",
+  "minPrice": "Min price",
+  "maxPrice": "Max price",
+  "allCategories": "All categories",
+  "reset": "Reset",
+
+  "admin": "Admin Panel",
+  "adminProducts": "Admin Products",
+  "adminCategories": "Categories",
+
+  "addProduct": "Add Product",
+  "createProduct": "Create Product",
+  "createCategory": "Create Category",
+
+  "delete": "Delete",
+  "deleted": "Deleted",
+  "edit": "Edit",
+
+  "category": "Category",
+  "categories": "Categories",
+  "selectCategory": "Select category",
+
+  "orderSummary": "Order Summary",
+  "goShopping": "Go shopping",
+
+  "status": "Status",
+  "new": "New",
+  "paid": "Paid",
+  "shipped": "Shipped",
+  "delivered": "Delivered",
+  "cancelled": "Cancelled",
+
+  "create": "Create",
+  "save": "Save",
+  "cancel": "Cancel",
+
+  "productName": "Product name",
+  "description": "Description",
+  "price": "Price",
+  "imageUrl": "Image URL",
+  "productCreated": "Product created",
+
+  "validationRequired": "This field is required",
+  "validationRequiredField": "This required field is missing",
+  "validationPhone": "Invalid phone format",
+  "error": "Something went wrong",
+
+  "login": "Login",
+  "register": "Register",
+
+  "email": "Email",
+  "password": "Password",
+
+  "noAccount": "Don't have an account?",
+  "haveAccount": "Already have an account?",
+
+  "loginSuccess": "Login successful",
+  "registerSuccess": "Registration successful",
+
+  "loginError": "Login failed",
+  "registerError": "Registration failed",
+
+  "manageProducts": "Manage your store products",
+  "manageCategories": "Manage product categories",
+
+  "addCategory": "Add Category",
+  "categoryDeleted": "Category deleted",
+
+  "categoryNameRequired": "Category name is required",
+  "categoryCreated": "Category created",
+  "categoryCreateError": "Error creating category",
+
+  "fillAllFields": "Fill all fields",
+
+  "orderCreated": "Order created",
+  "removedFromCart": "Removed from cart",
+  "checkoutFailed": "Checkout failed",
+  "categoryName": "Category name",
+  "createdAt": "Created",
+  "newLabel": "NEW",
+  "accessDenied": "Access denied: User is not an admin"
+
+
+}

@@ -1,0 +1,112 @@
+{
+  "appTitle": "Мини Маркет",
+
+  "products": "Товары",
+  "cart": "Корзина",
+  "orders": "Заказы",
+  "order": "Заказ",
+
+  "addToCart": "Добавить в корзину",
+  "checkout": "Оформить заказ",
+
+  "name": "Имя",
+  "phone": "Телефон",
+  "address": "Адрес",
+
+  "deliveryInfo": "Данные доставки",
+
+  "total": "Итого",
+  "items": "Товары",
+
+  "emptyCart": "Корзина пуста",
+  "emptyOrders": "Заказов пока нет",
+
+  "back": "Назад",
+  "backToShop": "Назад в магазин",
+  "logout": "Выйти",
+
+  "search": "Поиск...",
+  "minPrice": "Мин цена",
+  "maxPrice": "Макс цена",
+  "allCategories": "Все категории",
+  "reset": "Сброс",
+
+  "admin": "Админ панель",
+  "adminProducts": "Товары (админ)",
+  "adminCategories": "Категории",
+
+  "addProduct": "Добавить товар",
+  "createProduct": "Создать товар",
+  "createCategory": "Создать категорию",
+
+  "delete": "Удалить",
+  "deleted": "Удалено",
+  "edit": "Редактировать",
+
+  "category": "Категория",
+  "categories": "Категории",
+  "selectCategory": "Выберите категорию",
+
+  "orderSummary": "Сводка заказа",
+  "goShopping": "Перейти к покупкам",
+
+  "status": "Статус",
+  "new": "Новый",
+  "paid": "Оплачен",
+  "shipped": "Отправлен",
+  "delivered": "Доставлен",
+  "cancelled": "Отменён",
+
+  "create": "Создать",
+  "save": "Сохранить",
+  "cancel": "Отмена",
+
+  "productName": "Название товара",
+  "description": "Описание",
+  "price": "Цена",
+  "imageUrl": "Ссылка на изображение",
+  "productCreated": "Товар создан",
+
+
+  "validationRequired": "Обязательное поле",
+  "validationRequiredField": "Обязательное поле не заполнено",
+  "validationPhone": "Неверный формат телефона",
+  "error": "Что-то пошло не так",
+
+  "login": "Вход",
+  "register": "Регистрация",
+
+  "email": "Email",
+  "password": "Пароль",
+
+  "noAccount": "Нет аккаунта?",
+  "haveAccount": "Уже есть аккаунт?",
+
+  "loginSuccess": "Успешный вход",
+  "registerSuccess": "Регистрация успешна",
+
+  "loginError": "Ошибка входа",
+  "registerError": "Ошибка регистрации",
+
+  "manageProducts": "Управление товарами",
+  "manageCategories": "Управление категориями",
+
+  "addCategory": "Добавить категорию",
+  "categoryDeleted": "Категория удалена",
+
+
+  "categoryNameRequired": "Название категории обязательно",
+  "categoryCreated": "Категория создана",
+  "categoryCreateError": "Ошибка создания категории",
+
+  "fillAllFields": "Заполните все поля",
+
+  "orderCreated": "Заказ оформлен",
+  "removedFromCart": "Удалено из корзины",
+  "checkoutFailed": "Ошибка оформления заказа",
+  "categoryName": "Название категории",
+  "createdAt": "Создано",
+  "newLabel": "НОВОЕ",
+  "accessDenied": "Доступ запрещен: пользователь не является администратором"
+
+}
