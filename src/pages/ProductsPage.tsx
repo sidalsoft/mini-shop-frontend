@@ -53,9 +53,9 @@ export default function ProductsPage() {
                 quantity: 1,
             });
 
-            toast.success("Added to cart");
+            toast.success(t("addedToCart"));
         } catch {
-            toast.error("Error adding to cart");
+            toast.error(t("errorAddingToCart"));
         }
     };
 
@@ -95,7 +95,13 @@ export default function ProductsPage() {
                             className="px-4 py-2 rounded-lg hover:bg-gray-100 cursor-pointer">
                             🛒 {t("cart")}
                         </button>
-
+                        {localStorage.getItem("role") === "ROLE_ADMIN" && (
+                            <button
+                                onClick={() => navigate("/admin")}
+                                className="px-3 py-1 rounded-lg hover:bg-gray-200 transition cursor-pointer">
+                                ⚙️ {t("admin")}
+                            </button>
+                        )}
                         <button
                             onClick={logout}
                             className="bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600 cursor-pointer">

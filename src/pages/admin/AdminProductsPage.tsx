@@ -100,7 +100,7 @@ export default function AdminProductsPage() {
                 <div className="max-w-7xl mx-auto p-6 flex justify-between items-center">
                     <div>
                         <h1 className="text-3xl font-extrabold text-gray-900">
-                            ⚙️ {t("adminProducts")}
+                            🛍️ {t("adminProducts")}
                         </h1>
                         <p className="text-sm text-gray-500">
                             {t("manageProducts")}

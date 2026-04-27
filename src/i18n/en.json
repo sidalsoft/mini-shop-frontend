@@ -7,6 +7,8 @@
   "order": "Order",
 
   "addToCart": "Add to cart",
+  "addedToCart": "Added to cart",
+  "errorAddingToCart": "Error adding to cart",
   "checkout": "Checkout",
 
   "name": "Name",
