@@ -47,7 +47,7 @@ export default function AdminProductsPage() {
             await createProduct({
                 ...form,
                 price: Number(form.price),
-                categoryId: Number(form.categoryId),
+                categoryId: form.categoryId,
             });
 
             toast.success(t("productCreated"));
@@ -82,7 +82,7 @@ export default function AdminProductsPage() {
             await updateProduct(editing.id, {
                 ...editing,
                 price: Number(editing.price),
-                categoryId: Number(editing.categoryId),
+                categoryId: editing.categoryId,
             });
 
             toast.success(t("save"));

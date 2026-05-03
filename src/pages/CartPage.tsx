@@ -68,6 +68,20 @@ export default function CartPage() {
         }
     };
 
+    const removeFromCart_ = async (productId: string)=>{
+        removeFromCart(productId);
+
+        const updatedItems = cart.items.filter(x => x.productId !== productId);
+        setCart({
+            ...cart,
+            items: updatedItems,
+            totalPrice: updatedItems.reduce(
+                (sum: number, i: any) => sum + i.price * i.quantity,
+                0
+            ),
+        });
+    }
+
     const handleCheckout = async () => {
         if (!form.name || !form.phone || !form.address) {
             toast.error(t("validationRequired"));
@@ -176,7 +190,7 @@ export default function CartPage() {
                                     </p>
 
                                     <button
-                                        onClick={() => removeFromCart(item.productId)}
+                                        onClick={() => removeFromCart_(item.productId)}
                                         className="text-red-500 text-sm hover:underline mt-2">
                                         {t("delete")}
                                     </button>

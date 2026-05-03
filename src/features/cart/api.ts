@@ -2,7 +2,7 @@ import { api } from "@/api/axios";
 
 export const getCart = () => api.get("/cart");
 
-export const removeFromCart = (productId: number) =>
+export const removeFromCart = (productId: any) =>
     api.delete(`/cart/${productId}`);
 
 export const checkout = (data: any) =>

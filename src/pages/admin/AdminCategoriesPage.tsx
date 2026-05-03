@@ -49,9 +49,16 @@ export default function AdminCategoriesPage() {
     };
 
     const handleDelete = async (id: number) => {
-        await deleteCategory(id);
-        toast.success(t("categoryDeleted"));
-        loadCategories();
+        try {
+            await deleteCategory(id);
+            toast.success(t("categoryDeleted"));
+            loadCategories();
+        } catch (err: any) {
+            const message =
+                err?.response?.data?.message || t("categoryCreationFailed");
+            toast.error(message);
+        }
+
     };
 
     return (
