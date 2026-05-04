@@ -245,7 +245,7 @@ export default function CartPage() {
 
                             <div className="flex justify-between font-bold text-lg">
                                 <span>{t("total")}</span>
-                                <span>${cart.total}</span>
+                                <span>${cart.totalPrice}</span>
                             </div>
 
                             <button
