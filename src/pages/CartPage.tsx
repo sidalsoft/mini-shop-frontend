@@ -71,7 +71,7 @@ export default function CartPage() {
     const removeFromCart_ = async (productId: string)=>{
         removeFromCart(productId);
 
-        const updatedItems = cart.items.filter(x => x.productId !== productId);
+        const updatedItems = cart.items.filter((x: any) => x.productId !== productId);
         setCart({
             ...cart,
             items: updatedItems,
@@ -245,7 +245,7 @@ export default function CartPage() {
 
                             <div className="flex justify-between font-bold text-lg">
                                 <span>{t("total")}</span>
-                                <span>${cart.totalPrice}</span>
+                                <span>${cart.total}</span>
                             </div>
 
                             <button
